@@ -1,0 +1,31 @@
+# Core LangChain ecosystem
+langchain
+langchain-community
+langchain-core
+
+# Provider integrations (instead of raw SDKs)
+langchain-openai
+langchain-mistralai
+
+# Embeddings & tokenization
+tiktoken
+
+# Vector stores
+faiss-cpu
+chromadb
+
+# Document parsing
+pypdf
+python-docx
+unstructured
+
+# Env management
+python-dotenv
+
+# Backend (optional)
+fastapi
+uvicorn
+
+# Utilities
+numpy
+pandas
