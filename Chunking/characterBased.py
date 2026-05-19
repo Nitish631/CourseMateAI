@@ -5,7 +5,7 @@ path=os.path.join(os.path.dirname(__file__),"notes.txt")
 loader=TextLoader(path,encoding="utf-8")
 docs=loader.load()
 
-splitter=CharacterTextSplitter(separator="",chunk_size=10,chunk_overlap=2)
+splitter=CharacterTextSplitter(separator="\n",chunk_size=50,chunk_overlap=2)
 chunks=splitter.split_documents(docs)
 for i in chunks:
     print(i.page_content)
